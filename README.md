@@ -1,4 +1,7 @@
-# test coverage for  [eslint-config-airbnb (v14.1.0)](https://github.com/airbnb/javascript)  [![npm package](https://img.shields.io/npm/v/npmtest-eslint-config-airbnb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-eslint-config-airbnb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-eslint-config-airbnb.svg)](https://travis-ci.org/npmtest/node-npmtest-eslint-config-airbnb)
+# npmtest-eslint-config-airbnb
+
+#### test coverage for  [eslint-config-airbnb (v14.1.0)](https://github.com/airbnb/javascript)  [![npm package](https://img.shields.io/npm/v/npmtest-eslint-config-airbnb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-eslint-config-airbnb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-eslint-config-airbnb.svg)](https://travis-ci.org/npmtest/node-npmtest-eslint-config-airbnb)
+
 #### Airbnb's ESLint config, following our styleguide
 
 [![NPM](https://nodei.co/npm/eslint-config-airbnb.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/eslint-config-airbnb)
@@ -9,9 +12,15 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eslint-config-airbnb/tree/gh-pages/build)|
 
+- [https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/coverage.html/index.html)
+
 [![istanbul-coverage](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/coverage.html/index.html)
 
+- [https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/test-report.html](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/test-report.html)
+
 [![test-report](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-eslint-config-airbnb/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-eslint-config-airbnb/build/apidoc.html)
 
 [![apidoc](https://npmdoc.github.io/node-npmdoc-eslint-config-airbnb/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-eslint-config-airbnb/build/apidoc.html)
 
