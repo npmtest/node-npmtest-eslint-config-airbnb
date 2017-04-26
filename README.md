@@ -1,6 +1,6 @@
 # npmtest-eslint-config-airbnb
 
-#### test coverage for  [eslint-config-airbnb (v14.1.0)](https://github.com/airbnb/javascript)  [![npm package](https://img.shields.io/npm/v/npmtest-eslint-config-airbnb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-eslint-config-airbnb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-eslint-config-airbnb.svg)](https://travis-ci.org/npmtest/node-npmtest-eslint-config-airbnb)
+#### basic test coverage for  [eslint-config-airbnb (v14.1.0)](https://github.com/airbnb/javascript)  [![npm package](https://img.shields.io/npm/v/npmtest-eslint-config-airbnb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-eslint-config-airbnb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-eslint-config-airbnb.svg)](https://travis-ci.org/npmtest/node-npmtest-eslint-config-airbnb)
 
 #### Airbnb's ESLint config, following our styleguide
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eslint-config-airbnb/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eslint-config-airbnb/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-eslint-config-airbnb/build/coverage.html/index.html)
 
@@ -125,7 +125,8 @@
         "tests-only": "babel-tape-runner ./test/test-*.js",
         "travis": "cd ../eslint-config-airbnb-base && npm install && npm link && cd - && npm link eslint-config-airbnb-base && npm run --silent test ; npm unlink eslint-config-airbnb-base >/dev/null &"
     },
-    "version": "14.1.0"
+    "version": "14.1.0",
+    "bin": {}
 }
 ```
 
